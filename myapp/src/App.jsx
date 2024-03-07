@@ -13,12 +13,14 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      
+      <Route path='/' element= {<Layout />}>
         <Route path="/nutrition" element={<Nutrition />} />
         <Route path="/exercise" element={<Exercise />} />
         <Route path="/community" element={<Community />} />
         <Route path="/appointment" element={<Appointment />} />
         <Route path="/baby" element={<Baby />} />
+      </Route>
+        
         
       
     </Routes>
