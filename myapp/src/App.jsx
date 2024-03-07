@@ -6,6 +6,8 @@ import Appointment from './components/Appointment'
 import Baby from './components/Baby'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Layout from './components/Layout'
+import "./index.css"
+
 
 function App() {
  
