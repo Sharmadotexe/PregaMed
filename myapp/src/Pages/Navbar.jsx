@@ -43,7 +43,9 @@ const navbar = () => {
     </div>
   </div>
 </nav> 
+<Outlet></Outlet>
     </div>
+     
   )
 }
 

@@ -5,8 +5,7 @@ import Navbar from '../Pages/Navbar'
 function Layout() {
   return (
     <div>
-        <Navbar></Navbar>
-      <Outlet></Outlet>
+        this is a home page
     </div>
 
   )
