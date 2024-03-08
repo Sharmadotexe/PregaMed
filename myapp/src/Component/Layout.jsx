@@ -6,6 +6,7 @@ function Layout() {
   return (
     <div>
         this is a home page
+        random thinbgs
     </div>
 
   )
