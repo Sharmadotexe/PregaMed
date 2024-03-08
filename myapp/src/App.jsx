@@ -1,11 +1,11 @@
 import React from 'react'
-import Nutrition from './components/Nutrition'
-import Exercise from './components/Exercise'
-import Community from './components/Community'
-import Appointment from './components/Appointment'
-import Baby from './components/Baby'
+import Nutrition from './Pages/Nutrition'
+import Exercise from './Pages/Exercise'
+import Community from './Pages/Community'
+import Appointment from './Pages/Appointment'
+import Baby from './Pages/Baby'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Layout from './components/Layout'
+import Layout from './Component/Layout'
 import "./index.css"
 
 
