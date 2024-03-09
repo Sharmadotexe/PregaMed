@@ -6,7 +6,6 @@ import Dropdown from './Dropdown'
 function Layout() {
   return (
     <div>
-        
     </div>
 
   )
