@@ -1,8 +1,12 @@
 import React from 'react'
+import HeroSection from '../Component/HeroSection'
+
 
 function Nutrition() {
   return (
-    <div>Nutrition</div>
+    <div>
+      <HeroSection/>
+    </div>
   )
 }
 
