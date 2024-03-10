@@ -5,7 +5,7 @@ import HeroSection from '../Component/HeroSection'
 function Nutrition() {
   return (
     <div>
-      <HeroSection/>
+      <HeroSection prop ={{title : "WELCOME TO THE PERSONALIZED HEALTH CENTER", description : "Pregnant women must…Eat right, Sleep right,  Drink right, and Move right!" }}  />
     </div>
   )
 }
