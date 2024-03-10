@@ -8,7 +8,7 @@ function Layout() {
   return (
     <div>
       <NavContainer/>
-      <Dropdown/>
+      <NavContainer/> 
     </div>
 
   )

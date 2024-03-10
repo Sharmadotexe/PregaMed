@@ -111,7 +111,7 @@ const ExercisePlaceholder = [
 export default function AccordionUsage() {
   return (
     <div>
-      <Accordion>
+      <Accordion class='border border-blue-900 mt-10'>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1-content"
