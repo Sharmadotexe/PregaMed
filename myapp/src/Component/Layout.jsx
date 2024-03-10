@@ -1,14 +1,19 @@
 import React from 'react'
 import { Link, Outlet } from "react-router-dom"
-import Navbar from '../Pages/Navbar'
-import Dropdown from './Dropdown'
 import NavContainer from './NavContainer'
+import Footer  from './Footer'
+import HorizontalScroll from './HorizontalScroll'
+import Faq from './Faq'
+import Homecomponent  from './Homecomponent'
 
 function Layout() {
   return (
     <div>
       <NavContainer/>
-      <NavContainer/> 
+      <HorizontalScroll></HorizontalScroll>
+      <Homecomponent></Homecomponent>
+      <Faq></Faq>
+      <Footer></Footer>
     </div>
 
   )
